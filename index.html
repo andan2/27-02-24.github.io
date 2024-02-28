@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="/Imagenes/logo_maria_icono_sitio.png">
+    <link rel="shortcut icon" href="/Imagenes/logo_maria_icono_sitio.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Imagenes/logo_maria_icono_sitio.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/Imagenes/logo_maria_icono_sitio.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="./style.css" />
+    <title>Soul</title>
+</head>
+<body>
+    <div class="wing right"></div>
+    <div class="wing left"></div>
+     <div class="heart"></div>
+     <!-- La lightbox, inicialmente oculta -->
+<div class="lightbox" id="miLightbox">
+    <div class="lightbox-content">
+        <span class="close"><i class='bx bx-x'></i></span>
+        <p>Hola, María:</p>
+
+        <p>Espero que te gusten las flores y el video que te mandaré en dos días. Cuando te escribí en Navidad y te propuse ir allí, no te mentía; realmente me gustaría visitarte. Sin embargo, como no respondiste a eso, supuse que tal vez era algo muy precipitado.</p>
+    
+        <p>No obstante, quiero proponerte otra cosa. ¿Por qué en lugar de ir yo allí, no vienes tú a Ibiza? Había pensado en junio, julio o agosto, aunque esto depende de la faena que puedas tener, porque de verdad que me gustaría invitarte a venir a Ibiza. No obstante, hay un pequeño problema que necesito solucionar: el año pasado, vivía solo en una habitación de hotel, pero este año me han propuesto compartir con un compañero de recepción. El plan inicial era dormir yo en una cama inflable en el suelo y que tú durmieras en mi cama. Sin embargo, tendré que pensar en un plan B y, cuando lo tenga, te lo comunicaré por WhatsApp. He visto los vuelos, pero el problema son las escalas; deberías hacer muchas escalas, jeje.</p>
+    
+        <p>¿Te gusta el mar, no? Pues aquí en Ibiza tenemos las mejores playas del mundo y puedo ser un buen guía 😉​ Tal vez debería crear una app relacionada con eso.</p>
+    
+        <video controls class="responsive">
+            <source src="https://res.cloudinary.com/dclfvlcah/video/upload/v1709085825/invitacion_ibiza_dli6vp.mp4" type="video/mp4">
+            Tu navegador no soporta videos.
+        </video>
+
+        <p>Bueno, espero que veas con buenos ojos este plan un poco loco. Por cierto, la web de esta semana es <a href="http://turismodubai.info">turismodubai.info</a>. Voy a cambiar un poco de estrategia, voy a hacer la web más vertical todavía, además es una ciudad muy turística con alojamientos caros y la gente suele gastar mucho dinero en Dubái, veamos a ver cómo funciona.</p>
+    
+        <p>Te quiere ❤️​❤️​,</p>
+    
+        <p>Andrei.</p>
+    </div>
+</div>
+    <!-- Estructura de la caja de luz para el video -->
+    <div id="cajaLuz" class="lightbox lightboxVideo" style="display: none;">
+        <div class="lightbox-content lightbox-contentVideo">
+            <span class="close" onclick="cerrarCajaLuz()"><i class='bx bx-x'></i></span>
+            <video controls>
+                <source src="https://res.cloudinary.com/dclfvlcah/video/upload/v1707258846/simpsons_iw1mjn.mp4" type="video/mp4">
+                Tu navegador no soporta videos.
+            </video>
+        </div>
+    </div>
+        <div id="envelope">
+  <div class="top"></div>
+  <div class="home-button-container">
+    <!-- El ícono de la casa ahora funciona como un botón de enlace -->
+    <a href="https://andan2.github.io/portfolio.github.io/" id="home-button">
+      <i class="fas fa-home"></i>
+    </a>
+  </div>
+  <div class="sides"></div>
+</div>
+    <div class="star">
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
